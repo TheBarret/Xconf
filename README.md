@@ -1,11 +1,10 @@
 # Xconf
-A versatile config reader and parser
 
-Project: Xconf
+- Project: Xconf
 
 Library for parsing a config file with strong typed values and keeps track of modifications if changed externally
 
-Config format:
+- Config format:
 
 {key}       :{type}   : {value};
 
@@ -14,17 +13,17 @@ test.float  : float   : 3.14;
 test.bool   : boolean : True;
 test.string : string  : "Hello, World!";  
 
-Accepted key formats
+- Accepted key formats
 Key      = a-z 0-9 . _
 
 Accepted type formats
 type     = byte, int16, int32, int64, float, string, boolean
 
-- Setup -
+- Setup
 
-dim xconf as xconf.provider = Parser.Create(<filename>)
+dim xconf as xconf.provider = Parser.Create({filename})
 
-- Methods -
+- Methods
 
 xconf({key}).Cast(Of T)() as T
 Cast object without type check, throws exception if type mismatched
