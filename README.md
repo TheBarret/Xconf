@@ -34,11 +34,6 @@ dim xconf as xconf.provider = Parser.Create({filename})
 Cast object without type check, throws exception if type mismatched
 ```
 xconf({key}).Cast(Of T)() as T
-```
-
-Cast object with type check, throws no exception but returns nothing if fails
-```
-xconf({key}).TryCast(Of T)() As T
 xconf({key}).ToByte() as Byte
 xconf({key}).ToInt16() as Int16
 xconf({key}).ToInt32() as Int32
@@ -46,4 +41,9 @@ xconf({key}).ToInt64() as Int64
 xconf({key}).ToDouble() as Double
 xconf({key}).ToBoolean() as Boolean
 xconf({key}).ToString() as String
+```
+
+Cast object with type check, throws no exception but returns nothing if fails
+```
+xconf({key}).TryCast(Of T)() As T
 ```
