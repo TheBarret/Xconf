@@ -9,8 +9,7 @@ Public NotInheritable Class Parser
 				fs.Read(buffer, 0, buffer.Length)
 				Dim template As New Provider(Filename)
 				Dim rx As New Regex(Config.CONFIG_LINE, RegexOptions.IgnoreCase Or RegexOptions.Multiline)
-				Dim collection As MatchCollection = rx.Matches(Encoding.UTF8.GetString(buffer))
-				For Each item As Match In collection
+				For Each item As Match In rx.Matches(Encoding.UTF8.GetString(buffer))
 					If (item.Groups(2).Value.Equals("byte", StringComparison.OrdinalIgnoreCase)) Then
 						template.Add(item.Groups(1).Value, New Value(item.Groups(3).Value, ValueType.Byte))
 					ElseIf (item.Groups(2).Value.Equals("int16", StringComparison.OrdinalIgnoreCase)) Then
