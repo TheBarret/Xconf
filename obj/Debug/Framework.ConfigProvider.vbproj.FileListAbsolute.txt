@@ -1,0 +1,9 @@
+C:\Users\Barret\Documents\GitHub\Tcp.Framework.src\Framework.ConfigProvider\bin\Debug\Framework.ConfigProvider.dll
+C:\Users\Barret\Documents\GitHub\Tcp.Framework.src\Framework.ConfigProvider\bin\Debug\Framework.ConfigProvider.pdb
+C:\Users\Barret\Documents\GitHub\Tcp.Framework.src\Framework.ConfigProvider\bin\Debug\Framework.Threads.dll
+C:\Users\Barret\Documents\GitHub\Tcp.Framework.src\Framework.ConfigProvider\bin\Debug\Framework.Threads.pdb
+C:\Users\Barret\Documents\GitHub\Tcp.Framework.src\Framework.ConfigProvider\obj\Debug\Framework.ConfigProvider.vbprojResolveAssemblyReference.cache
+C:\Users\Barret\Documents\GitHub\Tcp.Framework.src\Framework.ConfigProvider\obj\Debug\Framework.ConfigProvider.Resources.resources
+C:\Users\Barret\Documents\GitHub\Tcp.Framework.src\Framework.ConfigProvider\obj\Debug\Framework.ConfigProvider.vbproj.GenerateResource.Cache
+C:\Users\Barret\Documents\GitHub\Tcp.Framework.src\Framework.ConfigProvider\obj\Debug\Framework.ConfigProvider.dll
+C:\Users\Barret\Documents\GitHub\Tcp.Framework.src\Framework.ConfigProvider\obj\Debug\Framework.ConfigProvider.pdb

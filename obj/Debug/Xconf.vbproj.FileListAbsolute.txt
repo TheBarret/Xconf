@@ -1,0 +1,6 @@
+C:\Users\Barret\Documents\GitHub\Exconf\bin\Debug\Xconf.dll
+C:\Users\Barret\Documents\GitHub\Exconf\bin\Debug\Xconf.pdb
+C:\Users\Barret\Documents\GitHub\Exconf\obj\Debug\Xconf.Resources.resources
+C:\Users\Barret\Documents\GitHub\Exconf\obj\Debug\Xconf.vbproj.GenerateResource.Cache
+C:\Users\Barret\Documents\GitHub\Exconf\obj\Debug\Xconf.dll
+C:\Users\Barret\Documents\GitHub\Exconf\obj\Debug\Xconf.pdb
