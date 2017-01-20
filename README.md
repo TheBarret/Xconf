@@ -2,7 +2,12 @@
 
 - Project: Xconf
 
-Library for parsing a config file with strong typed values and keeps track of modifications if changed externally
+Library for parsing a config file with strong typed defined values.
+
+- Provider Class
+
+The provider class uses the base principles from the Dict(Of TKey, TValue) using the 'Key', it also
+keeps track if the config file has been changed externally, if this happens it will automaticly update itself.
 
 - Config format:
 ```
