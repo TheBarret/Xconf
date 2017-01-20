@@ -31,24 +31,24 @@ type     = byte, int16, int32, int64, float, string, boolean
 
 - Setup
 ```
-dim xconf as xconf.provider = Parser.Create({filename})
+dim table as Xconf.provider = Xconf.Parser.Create({filename})
 ```
 
 - Methods
 
 Cast object without type check, throws exception if type mismatched
 ```
-xconf({key}).Cast(Of T)() as T
-xconf({key}).ToByte() as Byte
-xconf({key}).ToInt16() as Int16
-xconf({key}).ToInt32() as Int32
-xconf({key}).ToInt64() as Int64
-xconf({key}).ToDouble() as Double
-xconf({key}).ToBoolean() as Boolean
-xconf({key}).ToString() as String
+table({key}).Cast(Of T)() as T
+table({key}).ToByte() as Byte
+table({key}).ToInt16() as Int16
+table({key}).ToInt32() as Int32
+table({key}).ToInt64() as Int64
+table({key}).ToDouble() as Double
+table({key}).ToBoolean() as Boolean
+table({key}).ToString() as String
 ```
 
 Cast object with type check, throws no exception but returns nothing if fails
 ```
-xconf({key}).TryCast(Of T)() As T
+table({key}).TryCast(Of T)() As T
 ```
